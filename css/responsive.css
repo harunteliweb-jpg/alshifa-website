@@ -10,6 +10,7 @@
 
   /* Header */
   .hamburger { display: flex; }
+  .header__phone { display: flex; }
   .header .btn--teal { font-size: 0.8rem; padding: 0.6rem 1.2rem; }
   .logo { font-size: 1rem; }
   .logo-icon { height: 32px; }

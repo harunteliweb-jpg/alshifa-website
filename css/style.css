@@ -162,6 +162,27 @@ p { margin-bottom: 1rem; }
   gap: 1rem;
 }
 
+.header__phone {
+  display: none;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background-color: var(--teal);
+  color: var(--white);
+  align-items: center;
+  justify-content: center;
+  transition: background var(--transition);
+}
+
+.header__phone svg {
+  width: 18px;
+  height: 18px;
+}
+
+.header__phone:hover {
+  background-color: var(--teal-dark);
+}
+
 .hamburger {
   display: none;
   flex-direction: column;

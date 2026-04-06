@@ -38,6 +38,10 @@
   .values-grid { grid-template-columns: 1fr; }
   .value-item { border-right: none !important; }
 
+  /* Certificate */
+  .certificate-section { grid-template-columns: 1fr; gap: 2rem; }
+  .certificate-image { order: -1; }
+
   /* About */
   .about-grid { grid-template-columns: 1fr; gap: 2.5rem; }
   .about-text h2 { font-size: 1.8rem; }

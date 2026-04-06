@@ -514,6 +514,47 @@ p { margin-bottom: 1rem; }
 }
 
 /* ===========================
+   CERTIFICATE
+   =========================== */
+.certificate-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.certificate-image {
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+  border: 1px solid var(--border);
+}
+
+.certificate-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.certificate-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1.5rem;
+}
+
+.cert-badge {
+  display: inline-block;
+  padding: 0.5rem 1.25rem;
+  background-color: var(--off-white);
+  border: 1px solid var(--border);
+  border-radius: 50px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--teal);
+}
+
+/* ===========================
    HADITH QUOTE
    =========================== */
 .hadith {
